@@ -275,7 +275,7 @@ function ProductCard({ product, onAddItem }: ProductCardProps) {
           <img
             src={product.thumbnailUrl || "/placeholder.svg"}
             alt={product.name}
-            className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-200"
+            className="w-full object-contain group-hover:scale-105 transition-transform duration-200"
           />
           <Badge className="absolute top-2 right-2" variant="secondary">
             {formatPHP(convertUSDToPHP(product.price))}
